@@ -1,4 +1,4 @@
-let hero = document.querySelector('.hero-image') != null;
+let hero = document.querySelector('.hero-image') != null || document.querySelector('.hero-mini') != null;
 const navbar = document.getElementById("navbar");
 
 if (hero) {

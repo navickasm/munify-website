@@ -361,6 +361,15 @@ textarea {
   position: relative;
 }
 
+.hero-mini {
+  height: 30vh;
+  background-image: linear-gradient(rgba(40, 114, 79, 0.75), rgba(0, 0, 0, 0.75)), url("../img/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 .hero-text {
   text-align: center;
   position: absolute;
@@ -369,6 +378,10 @@ textarea {
   transform: translate(-50%, -50%);
   width: 80%;
   color: white;
+}
+
+.hero-mini .hero-text h1 {
+  font-size: 60px;
 }
 
 #navbar {
