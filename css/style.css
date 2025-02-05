@@ -418,6 +418,16 @@ textarea {
   transition: background-color 0.2s ease-in-out;
 }
 
+#navbar-list a.register {
+  background-color: white;
+  color: rgb(40, 114, 79);
+  transition: background-color 0.2s ease-in-out;
+}
+
+#navbar-list a.register:hover {
+  background-color: rgb(240,240,240);
+}
+
 #navbar * .logo {
   height: 40px;
   padding: 14px 28px;
@@ -466,4 +476,12 @@ textarea {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.title {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #222;
+  font-size: 1rem;
 }
