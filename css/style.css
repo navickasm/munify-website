@@ -37,6 +37,11 @@ a:visited {
   color: rgb(109, 187, 151);
 }
 
+a[target="_blank"]::after {
+  content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAEhJREFUKFOdkMEKACAMQvP/P3ph5BgtO7Sb+lAYhrmIiBqBoplA89PADtViGytYIfrUrfGEtGBBLay2U9we8A+6f9LP6RekbALkakf77bNWzwAAAABJRU5ErkJggg==);
+  margin: 0 3px 0 5px;
+}
+
 section {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
